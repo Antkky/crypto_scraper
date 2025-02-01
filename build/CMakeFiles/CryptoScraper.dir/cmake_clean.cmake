@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CryptoScraper.dir/main.cpp.o"
-  "CMakeFiles/CryptoScraper.dir/main.cpp.o.d"
+  "CMakeFiles/CryptoScraper.dir/src/main.cpp.o"
+  "CMakeFiles/CryptoScraper.dir/src/main.cpp.o.d"
   "CryptoScraper"
   "CryptoScraper.pdb"
 )

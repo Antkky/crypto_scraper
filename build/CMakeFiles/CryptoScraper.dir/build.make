@@ -69,28 +69,28 @@ include CMakeFiles/CryptoScraper.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CryptoScraper.dir/flags.make
 
-CMakeFiles/CryptoScraper.dir/main.cpp.o: CMakeFiles/CryptoScraper.dir/flags.make
-CMakeFiles/CryptoScraper.dir/main.cpp.o: /mnt/c/Projects/crypto_scraper/main.cpp
-CMakeFiles/CryptoScraper.dir/main.cpp.o: CMakeFiles/CryptoScraper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Projects/crypto_scraper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CryptoScraper.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CryptoScraper.dir/main.cpp.o -MF CMakeFiles/CryptoScraper.dir/main.cpp.o.d -o CMakeFiles/CryptoScraper.dir/main.cpp.o -c /mnt/c/Projects/crypto_scraper/main.cpp
+CMakeFiles/CryptoScraper.dir/src/main.cpp.o: CMakeFiles/CryptoScraper.dir/flags.make
+CMakeFiles/CryptoScraper.dir/src/main.cpp.o: /mnt/c/Projects/crypto_scraper/src/main.cpp
+CMakeFiles/CryptoScraper.dir/src/main.cpp.o: CMakeFiles/CryptoScraper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Projects/crypto_scraper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CryptoScraper.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CryptoScraper.dir/src/main.cpp.o -MF CMakeFiles/CryptoScraper.dir/src/main.cpp.o.d -o CMakeFiles/CryptoScraper.dir/src/main.cpp.o -c /mnt/c/Projects/crypto_scraper/src/main.cpp
 
-CMakeFiles/CryptoScraper.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CryptoScraper.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Projects/crypto_scraper/main.cpp > CMakeFiles/CryptoScraper.dir/main.cpp.i
+CMakeFiles/CryptoScraper.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CryptoScraper.dir/src/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Projects/crypto_scraper/src/main.cpp > CMakeFiles/CryptoScraper.dir/src/main.cpp.i
 
-CMakeFiles/CryptoScraper.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CryptoScraper.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Projects/crypto_scraper/main.cpp -o CMakeFiles/CryptoScraper.dir/main.cpp.s
+CMakeFiles/CryptoScraper.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CryptoScraper.dir/src/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Projects/crypto_scraper/src/main.cpp -o CMakeFiles/CryptoScraper.dir/src/main.cpp.s
 
 # Object files for target CryptoScraper
 CryptoScraper_OBJECTS = \
-"CMakeFiles/CryptoScraper.dir/main.cpp.o"
+"CMakeFiles/CryptoScraper.dir/src/main.cpp.o"
 
 # External object files for target CryptoScraper
 CryptoScraper_EXTERNAL_OBJECTS =
 
-CryptoScraper: CMakeFiles/CryptoScraper.dir/main.cpp.o
+CryptoScraper: CMakeFiles/CryptoScraper.dir/src/main.cpp.o
 CryptoScraper: CMakeFiles/CryptoScraper.dir/build.make
 CryptoScraper: CMakeFiles/CryptoScraper.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Projects/crypto_scraper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CryptoScraper"
