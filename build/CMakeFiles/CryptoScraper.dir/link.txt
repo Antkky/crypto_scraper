@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/CryptoScraper.dir/main.cpp.o -o CryptoScraper  -lm 

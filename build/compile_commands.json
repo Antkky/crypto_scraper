@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/mnt/c/Projects/crypto_scraper/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Projects/crypto_scraper/include -g -std=gnu++17 -o CMakeFiles/CryptoScraper.dir/main.cpp.o -c /mnt/c/Projects/crypto_scraper/main.cpp",
+  "file": "/mnt/c/Projects/crypto_scraper/main.cpp",
+  "output": "CMakeFiles/CryptoScraper.dir/main.cpp.o"
+}
+]
